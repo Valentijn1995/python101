@@ -31,4 +31,18 @@ sum = my_function(first_number, second_number)
 print("The sum of {} and {} is {}".format(first_number, second_number, sum))
 ```
 
+## Documentation
+
+It is best practice to document your functions so others will know
+how to use it more easily.
+
+```Python
+def my_function(argument1, argument2):
+    '''
+    This is my function. It takes two arguments
+    and return the sum of those arguments.
+    '''
+    result = argument1 + argument2
+    return result
+```
 
