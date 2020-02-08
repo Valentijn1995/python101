@@ -55,4 +55,4 @@ for item, quantity in my_shopping_list.items():
 
 # You can access a specific value in the dictionary by using it's key:
 amount_of_apples = my_shopping_list["apple"]
-print("I have the get {} apples from the shop".format(amount_of_apples))
+print("I have to get {} apples from the shop".format(amount_of_apples))
