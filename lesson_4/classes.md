@@ -8,7 +8,7 @@ class variables can be accessed within the functions be using the **this** keywo
 
 class Counter:
 
-    def __init__(self, initial_count):
+    def __init__(self, initial_count=0):
         self._count = initial_count
     
     def increase(self):
@@ -17,7 +17,7 @@ class Counter:
     def decrease(self):
         self._count = self._count - 1
     
-    def __len__(self):
+    def get_count(self):
         return self._count
 
 ```
