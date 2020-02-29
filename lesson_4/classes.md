@@ -39,8 +39,8 @@ Lets break apart the story above:
     * An engine needs fuel to operate
   * A vehicle needs tires to be able to move
     * Tires can get worn out
-* The fuel tank of a vehicle can be filled at a fuelstation
-  * A fuelstation can offer different types of fuel
+* The fuel tank of a vehicle can be filled at a fuel-station
+  * A fuel-station can offer different types of fuel
 * Worn tires can be replaced at a garage
 
 De next thing we are going to do is to create an UML. UML stands for Unified Modeling Language.
