@@ -37,7 +37,7 @@ class TestCounter(TestCase):
     def setUp(self):
         '''
         The method is called before every test case.
-        It allows you to initialize the veriables you
+        It allows you to initialize the variables you
         need during the test cases.
         '''
         self._counter = Counter()
@@ -54,8 +54,8 @@ class TestCounter(TestCase):
 
     def test_decrease(self):
         '''
-        Test if counter is descreased when the
-        descrease method is called.
+        Test if counter is decreased when the
+        decrease method is called.
         '''
         self._counter.increase()
         count_before_dec = self._counter.get_count()
